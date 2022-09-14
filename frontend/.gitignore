@@ -3,3 +3,7 @@ node_modules
 package-lock.json
 # Local Netlify folder
 .netlify
+
+#production
+puppeteer.api.json
+puppeteer*.tgz
