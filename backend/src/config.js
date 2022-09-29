@@ -7,9 +7,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "olicactus.xyz";
+const namePrefix = "olicactus";
 const description = "Funny Cactus";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://Qmcqrfm6TKZbshF2xwt2BJRAeZq6qQE9h8bCeKuBcR9Q2z"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
@@ -47,7 +47,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'olicactus.xyz';
+const CONTRACT_NAME = 'olicactus';
 const CONTRACT_SYMBOL = 'OC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xE6e93bf0f2Cd072D8855a27495B69ec987455A45';
